@@ -131,11 +131,12 @@
 	<build>
 		<finalName>Test</finalName>
 		<plugins>
+		<!-- NB don't forget to install Groovy-Eclipse integration http://dist.springsource.org/release/GRECLIPSE/e4.2 -->
 			<plugin>
 				<groupId>org.codehaus.groovy</groupId>
 				<artifactId>groovy-eclipse-compiler</artifactId>
 				<version>2.7.0-01</version>
-				<!-- NB! for groovy sources! -->
+				<!-- NB! for groovy only sources! -->
 				<extensions>true</extensions>
 			</plugin>
 			<plugin>
